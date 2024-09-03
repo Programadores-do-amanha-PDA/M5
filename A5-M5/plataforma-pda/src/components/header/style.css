@@ -1,0 +1,31 @@
+.container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+   gap: 20px;
+}
+
+.container h1{
+    color: #2b042b;
+    font-size: 40px;
+}
+
+.container h1::first-letter{
+    color: #d6c91f;
+}
+
+.container img{
+    border-radius: 100px;
+}
+
+.list{
+    list-style: none;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
