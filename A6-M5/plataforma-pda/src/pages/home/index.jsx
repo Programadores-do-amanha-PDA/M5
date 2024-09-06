@@ -5,6 +5,7 @@ import "./style.css";
 export default function Home(){
     const [number, setNumber] = useState(0);
     const [title, setTitle] = useState("Home");
+    const [status, setStatus] = useState(false);
 
     function aumentar(){
         // number = number + 1;

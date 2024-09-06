@@ -8,7 +8,7 @@ import Login from './pages/login'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header/>
-    <Home/>
+    <Login/>
   </StrictMode>
 )
 
