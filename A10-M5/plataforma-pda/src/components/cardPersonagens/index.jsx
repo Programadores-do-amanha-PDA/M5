@@ -12,10 +12,10 @@ import "./style.css";
 
 export function CardPersonagens(props) {
   // primeiro criamos uma variavel para armazenar uma lista
-  const [listPerson, setListPerson] = useState([]);
-  const [listUser, setListUser] = useState([]);
+  // const [listPerson, setListPerson] = useState([]);
+  // const [listUser, setListUser] = useState([]);
 
-  const [name, setName] = useState("Beatriz");
+  // const [name, setName] = useState("Beatriz");
   //   let name = ""
 
   //   name = "Beatriz";
@@ -51,8 +51,8 @@ export function CardPersonagens(props) {
             <img src={props.image} className="image" />
             <h1>{props.name}</h1>
             <div className="infos">
-              <p className="firstInfo">{props.gender}</p>
-              <p className="secondInfo">{props.hair}</p>
+              <p className="firstInfo">{props.firstInfo}</p>
+              <p className="secondInfo">{props.secondInfo}</p>
             </div>
           </div>
         
